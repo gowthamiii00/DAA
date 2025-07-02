@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int n;
+    std::cout<< "enter the value of n :";
+    std::cin>>n;
+    
+    if(n>0){
+            std::cout<< "positive number";
+        }
+    
+    if(n<0){
+        
+            std::cout<< "negaitive number";
+        }
+    
+   if(n==0){
+       
+           std::cout<< "zero ";
+       }
+        
+    
+
+  
+    return 0;
+}
