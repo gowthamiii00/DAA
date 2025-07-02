@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int a,b;
+    std::cout<< "enter the value of a :";
+    std::cin>>a;
+    std::cout<< "enter the value of b :";
+    std::cin>>b;
+    if(a>b){
+      std::cout<< "maximum of 2 numbers is "<<a<<std::endl;
+    }
+    else{
+       std::cout<< "maximum of 2 numbers is "<<b<<std::endl;
+    }
+
+  
+    return 0;
+}
