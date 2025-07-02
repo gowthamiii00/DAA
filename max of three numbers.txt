@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int a,b,c;
+    std::cout<< "enter the value of a :";
+    std::cin>>a;
+    std::cout<< "enter the value of b :";
+    std::cin>>b;
+    std::cout<< "enter the value of c :";
+    std::cin>>c;
+    if(a>b){
+        if(a>c){
+            std::cout<< "maximum of 2 numbers is "<<a<<std::endl;
+        }
+    }
+    if(b>a){
+        if(b>c){
+            std::cout<< "maximum of 3 numbers is "<<b<<std::endl;
+        }
+    }
+   if(c>a){
+       if(c>b){
+           std::cout<< "maximum of 3 numbers is "<<c<<std::endl;
+       }
+        
+    }
+
+  
+    return 0;
+}
